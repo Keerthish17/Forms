@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url("./bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cont {
+        border-radius: 40px;
+        background-color: rgb(220, 127, 20);
+
+        margin-left: 33%;
+        margin-top: 5%;
+        border: 3px solid;
+        width: 600px;
+        height: 350px;
+        text-align: center;
+    }
+ .submit{
+    position: absolute;
+        margin-top: 60px;
+        margin-left: -90px;
+      }
+      #fn{
+        border-radius: 4px;
+      }
+      #ln{
+        border-radius: 4px;
+      }
+      #en{
+        border-radius: 4px;
+      }
+      #mn{
+        border-radius: 4px;
+      }
+     
+      label{
+font-family: 'poppins';
+      }
+     
+</style>
+
+<body>
+
+    <div class="cont">
+
+
+        <h2><b>REGISTRATION</b></h2>
+
+        <form action="https://formspree.io/f/xoqovbel" method="post">
+            <label for="First Name">First Name: </label>
+            <input type="text" name="fn" id="fn" placeholder="First name" required>
+            <br>
+            <br>
+            <label>Last Name: </label>
+            <input type="text" name="ln" id="ln" placeholder="Last name">
+            <br>
+            <br>
+            <label>Email Id: </label>
+            <input type="email" name="en" id="en" placeholder="Email">
+            <br>
+            <br>
+            <label>Password: </label>
+            <input type="password" id="mn" placeholder="Number" required>
+            <br>
+            <br>
+            <input type="radio" name="gender" checked required>
+            <label id="g1">Male</label>
+            <input type="radio" name="gender" required>
+            <label id="gn2">Female</label>
+            <button class="submit">Submit</button>
+
+            <br>
+            <br>
+           
+
+
+        </form>
+
+
+
+    </div>
+</body>
+
+</html>
